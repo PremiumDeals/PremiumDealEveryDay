@@ -1,0 +1,24 @@
+body { font-family: 'Inter', sans-serif; background: #f8fafc; color: #0f172a; margin: 0; }
+.alafi-container { width: min(1200px, 92vw); margin: 0 auto; }
+.alafi-header { position: sticky; top: 0; z-index: 30; background: #fff; border-bottom: 1px solid #e2e8f0; }
+.alafi-topbar { display: grid; grid-template-columns: 140px 1fr auto; align-items: center; gap: 1rem; padding: .9rem 1.25rem; }
+.alafi-brand { font-family: 'Poppins', sans-serif; font-size: 1.7rem; color: #2563eb; text-decoration: none; font-weight: 700; }
+.alafi-nav { padding: .7rem 1.25rem; background: #eff6ff; }
+.alafi-main { min-height: 70vh; }
+.alafi-hero { background: linear-gradient(120deg,#dbeafe,#ffffff); padding: 3.5rem 0; }
+.alafi-hero h1 { font-family: 'Poppins', sans-serif; font-size: clamp(1.8rem,4.2vw,3rem); margin-bottom: .5rem; }
+.alafi-btn { display: inline-flex; border: 1px solid #cbd5e1; border-radius: .65rem; padding: .75rem 1.1rem; text-decoration: none; color: #0f172a; background: #fff; cursor: pointer; }
+.alafi-btn-primary { background: #2563eb; color: #fff; border-color: #2563eb; }
+.alafi-product-grid { display: grid; gap: 1rem; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (min-width: 768px) { .alafi-product-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (min-width: 1200px) { .alafi-product-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
+.alafi-card, .product.type-product { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: .8rem; transition: transform .2s ease, box-shadow .2s ease; }
+.alafi-card:hover, .product.type-product:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(15,23,42,.08); }
+.alafi-badge-stack { display: flex; gap: .4rem; position: absolute; margin: .5rem; }
+.alafi-stock-pill { border-radius: 99px; font-size: .72rem; padding: .2rem .6rem; color: #fff; }
+.alafi-stock-pill.in-stock { background: #16a34a; }
+.alafi-stock-pill.out-of-stock { background: #dc2626; }
+.alafi-filter-card { background: #fff; border: 1px solid #e2e8f0; border-radius: .75rem; padding: 1rem; margin-bottom: 1rem; }
+.alafi-secure-checkout { margin-top: 1rem; font-weight: 600; color: #0f766e; }
+.alafi-dark-mode { background: #020617; color: #e2e8f0; }
+.alafi-dark-mode .alafi-header, .alafi-dark-mode .alafi-card, .alafi-dark-mode .product.type-product { background: #0f172a; border-color: #1e293b; }

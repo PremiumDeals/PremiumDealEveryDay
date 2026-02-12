@@ -1,0 +1,22 @@
+/*
+Theme Name: Alafi Marketplace
+Theme URI: https://alafi.example.com
+Author: Alafi Engineering Team
+Author URI: https://alafi.example.com
+Description: Production-ready WooCommerce marketplace theme with modern UI/UX, mobile-first layouts, PWA hooks, and conversion-focused shopping flows.
+Version: 1.0.0
+Requires at least: 6.5
+Tested up to: 6.6
+Requires PHP: 8.1
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: alafi
+Tags: ecommerce, woocommerce, marketplace, responsive, accessibility-ready, custom-logo, featured-images, block-styles
+*/
+
+:root {
+  --alafi-primary: #2563eb;
+  --alafi-secondary: #f97316;
+  --alafi-surface: #ffffff;
+  --alafi-text: #0f172a;
+}
