@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "palette": [
+        { "slug": "primary", "name": "Primary", "color": "#2563eb" },
+        { "slug": "accent", "name": "Accent", "color": "#f97316" },
+        { "slug": "surface", "name": "Surface", "color": "#ffffff" },
+        { "slug": "ink", "name": "Ink", "color": "#0f172a" }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        { "fontFamily": "Inter, sans-serif", "name": "Inter", "slug": "inter" },
+        { "fontFamily": "Poppins, sans-serif", "name": "Poppins", "slug": "poppins" }
+      ]
+    }
+  }
+}

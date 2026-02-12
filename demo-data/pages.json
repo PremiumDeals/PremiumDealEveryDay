@@ -1,0 +1,13 @@
+{
+  "pages": [
+    {
+      "title": "Home",
+      "template": "front-page.php",
+      "content": "[alafi_pincode_checker]"
+    },
+    {
+      "title": "My Dashboard",
+      "content": "[alafi_dashboard]"
+    }
+  ]
+}
